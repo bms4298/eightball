@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+import skilstak.colors as c
+
+
+
+answers = [
+  "Yes.",
+  "No.",
+  " Maybe.",
+  "If you pay me 100 mil.",
+  "If you are a creepy stalker."
+]
+
+easterEggDeath = ["die|death","I knew you were a stalker."]
+easterEggLove = ["love","If you make a cute cat video it will happen."]
+easterEggFriends = ["friend|friendship","Your ship of friends will sink."]
+easterEggs = [ easterEggDeath, easterEggLove, easterEggFriends]
+
