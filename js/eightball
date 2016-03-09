@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+
+'use strict'
+
+var c = require("skilstak-colors")
+
+var answers = [
+  "Yes.",
+  "No.",
+  " Maybe.",
+  "If you pay me 100 mil.",
+  "If you are a creepy stalker."
+];
+
+var easterEggDeath = ["die|death","I knew you were a stalker."];
+var easterEggLove = ["love","If you make a cute cat video it will happen."];
+var easterEggFriends = ["friend|friendship","Your ship of friends will sink."];
+var easterEggs = [ easterEggDeath, easterEggLove, easterEggFriends];
+function print(message) {
+  process.stdout.write(message + "\n");
+}
+//console.log(c.clear + c.multi("This is where people make important decisions like if Grumpy Cat still needs a youtube acount, it is always a yes.")); 
+ 
+print(c.clear + c.multi("Welcome to the AMAZING MAGIC 8BALL"))
